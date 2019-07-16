@@ -12,6 +12,9 @@ function square() {
 function inverse() {
  var num = document.getElementById("n1");
  num.value = 1/num.value;
+function sine() {
+ var num = document.getElementById("n1");
+ num.value = Math.sin(num.value);
 }
 </script>
 </head>
@@ -27,6 +30,8 @@ function inverse() {
  </p>
  <p>
  <button onclick="inverse()"> 1/x </button>
+  <p>
+ <button onclick="sine()"> sine </button>
  </p>
 </body>
 </html>
